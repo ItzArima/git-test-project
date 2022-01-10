@@ -5,5 +5,10 @@
 @endsection
 
 @section('content')
-    <h1>ABOUT PAGE</h1>
+    <div class="about-container">
+        <div class="jumbo">
+            <img src="https://picsum.photos/id/1079/1920/1080" alt="jumbo">
+            <h1>About Page</h1>
+        </div>
+    </div>
 @endsection

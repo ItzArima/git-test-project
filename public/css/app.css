@@ -13,8 +13,8 @@ header {
   position: fixed;
   z-index: 999;
   padding: 1rem 3rem;
-  -webkit-backdrop-filter: blur(3px) brightness(1.2);
-          backdrop-filter: blur(3px) brightness(1.2);
+  -webkit-backdrop-filter: blur(3px) brightness(1.5);
+          backdrop-filter: blur(3px) brightness(1.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -28,8 +28,8 @@ header .right nav {
 }
 
 header .right nav .active {
-  border-bottom: 2px solid black;
-  color: black;
+  border-bottom: 2px solid red;
+  color: red;
 }
 
 header .right nav a {
@@ -40,8 +40,8 @@ header .right nav a {
 }
 
 header .right nav a:hover {
-  color: black;
-  border-bottom: 2px solid black;
+  color: red;
+  border-bottom: 2px solid red;
 }
 
 footer {
@@ -53,5 +53,14 @@ footer .footer-container {
   color: white;
   display: flex;
   justify-content: space-evenly;
+}
+
+main {
+  min-height: calc(100vh - 37.6px);
+}
+
+main img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 

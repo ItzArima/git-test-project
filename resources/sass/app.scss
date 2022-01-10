@@ -13,7 +13,7 @@ header {
     position: fixed;
     z-index: 999;
     padding: 1rem 3rem;
-    backdrop-filter: blur(3px) brightness(1.2);
+    backdrop-filter: blur(3px)brightness(1.5);
     border-bottom: 1px solid rgba($color: #fff, $alpha: 0.3);
 
     .right{
@@ -24,8 +24,8 @@ header {
             justify-content: space-between;
 
             .active{
-                border-bottom: 2px solid black;
-                color: black;
+                border-bottom: 2px solid red;
+                color: red;
             }
 
             a{
@@ -35,8 +35,8 @@ header {
                 font-weight: 900;
 
                 &:hover{
-                    color: black;
-                    border-bottom: 2px solid black;
+                    color: red;
+                    border-bottom: 2px solid red;
                 }
             }
         }
@@ -51,5 +51,13 @@ footer {
         color: white;
         display: flex;
         justify-content: space-evenly;
+    }
+}
+
+main{
+    min-height: calc(100vh - 37.6px);
+
+    img{
+        object-fit: cover;
     }
 }
