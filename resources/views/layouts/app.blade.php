@@ -15,9 +15,14 @@
         @yield('custom-css')
     </head>
     <body>
+        @include('components.header')
+        {{-- // HEADER --}}
+
         <main>
             @yield('content')
             <h1>ciao</h1>
         </main>
+
+        @include('components.footer')
     </body>
 </html>
