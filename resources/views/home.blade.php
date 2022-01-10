@@ -7,7 +7,10 @@
 @endsection
 
 @section('content')
-
-<h1 class="title">HOMEPAGE DEL SIUM</h1>
-
+    <div class="container">
+        <div class="jumbo">
+            <img src="https://picsum.photos/id/1067/1920/1080" alt="jumbo">
+            <h1>Git Test Home</h1>
+        </div>
+    </div>
 @endsection
