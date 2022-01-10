@@ -8,6 +8,6 @@
 
 @section('content')
 
-<h1>HOMEPAGE DEL SIUM</h1>
+<h1 class="title">HOMEPAGE DEL SIUM</h1>
 
 @endsection
