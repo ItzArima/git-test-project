@@ -10,14 +10,15 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
-        <!-- Custom CSS -->
-        @yield('custom-css')
     </head>
     <body>
+        @include('components.header')
+        {{-- // HEADER --}}
+
         <main>
             @yield('content')
-            <h1>ciao</h1>
         </main>
+
+        @include('components.footer')
     </body>
 </html>
